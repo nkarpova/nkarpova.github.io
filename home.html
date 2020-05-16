@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap"
+     rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <meta name='viewport' content='width=device-width, initial-scale=1'>
+     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="page">
+      <!--Header-->
+      <header>
+          <nav>
+            <ul class="menu">
+              <li><a class="active " href="#about">About me</a></li>
+              <li><a href="#hard">Hard skills</a></li>
+
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+      </header>
+        <div class="container">
+          <div class="container-image">
+            <img class="image" src="il/foto1.jpg" alt="Foto">
+            <div class="icons">
+              <a href="#"><i class='fab fa-github'></i></a>
+              <a href="https://t.me/nkarpova304"><i class='fab fa-telegram'></i></a>
+              <a href="https://www.linkedin.com/in/natalia-k-7217b9124/"><i class='fab fa-linkedin'></i></a>
+            </div>
+          </div>
+          <div class="container-text">
+            <div class="i-am">
+              <p class=" im-text">HI, I'AM <br> NATALIA KARPOVA</p>
+              <p class=" im-text2">Junior Web Developer</p>
+            </div>
+
+            <p id="carousel-words"></p>
+          </div>
+        </div>
+        <!--About me-->
+        <div class="about" id="about">
+          <div class="about-text">
+            <p class="about-text1">So, let me tell you <br>
+            a little bit about myself...</p>
+            <br>
+            <p class="about-text2">My name is Natalia. I’m a Junior Web Developer.
+            I'm graduated in Law but I understood I'm more interested in IT and I have
+            decided to change my life. Therefore I started
+            to learn programming.
+            My first course was dedicated to Java development.
+            I have recently started learning in <strong style="color: #ff681c;">
+              Start2impact</strong>
+            where I get into a more detailed understanding of Web development.
+            <br>
+            <br>
+            I’m a serious, patient, calm, responsable and kind person,
+            never afraid to get out the comfort zone.
+            I’m opened to new challenges and ready to learn
+            for improving the knowledge I have and getting new ones.
+            I’m eager to deal with interesting projects and tasks,
+            connect with other people and work with a team of professionals.</p>
+          </div>
+          <div>
+            <img class="about-image" src="il/world_wide_web.svg" alt="world_wide_web">
+          </div>
+        </div>
+        <!--Hard skills-->
+        <div class="skills1" id="hard">
+          <div>
+            <img class="skills-image" src="il/coding_.svg" alt="coding">
+          </div>
+          <div class="hard">
+            <p class="hard-skills">Hard skills.</p>
+            <p>Html/Css</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:55%"> </div>
+            </div>
+            <p>Bootstrap</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:35%"> </div>
+            </div>
+            <p>Wordpress</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:45%"> </div>
+            </div>
+            <p>MySQL</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:48%"> </div>
+            </div>
+            <p>PHP</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:40%"> </div>
+            </div>
+            <p>Java</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:55%"> </div>
+            </div>
+            <p>JavaScript</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:20%"> </div>
+            </div>
+            <p>React</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:20%"> </div>
+            </div>
+            <p>Springboot</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:50%"> </div>
+            </div>
+          </div>
+        </div>
+        <!--Phrase-->
+        <div class="phrase">
+        <p class="phrase-text">"Success means doing the best we can with what we have.
+            Success is the doing, not the getting; in the trying,<br>
+            not the triumph. Success is a personal standard,
+            eaching for the highest that is in us,
+            becoming all that we can be. ”<br>
+            <br>
+            Zig Ziglar.</p>
+        </div>
+        <!--Contact form-->
+          <div class="contact" id="contact">
+            <form action='' method='get' class='speaker-form'>
+              <div class='form-row'>
+                <p class="contact-text" style="text-align:center;">Contact Me.</p>
+
+              <label for='full-name'>Name</label>
+                <input id='full-name' name='full-name' type='text'
+                placeholder='Your name'/>
+              </div>
+              <div class='form-row'>
+                <label for='email'>Email</label>
+                <input id='email' name='email' type='email'
+                 placeholder='joe@example.com'/>
+              </div>
+              <div class='form-row'>
+                  <label for='message'>Message</label>
+                  <textarea id='message' name='message'
+                  placeholder='Text your message here'></textarea>
+                </div>
+              <div class='form-row'>
+                <button type="button" name="button">Send</button>
+              </div>
+            </form>
+            <div>
+            <img class="contact-image" src="il/sent_message.svg" alt="sent_message">
+            </div>
+          </div>
+          <footer>
+            <div class="footer-text">
+              <p>Natalia Karpova</p><br>
+              <p>&copy 2020</p>
+            </div>
+            <div class="footer-block">
+              <div class="footer-icons">
+                <img src="il/technology(1).png" alt="mobile"style="margin-bottom:10px;">
+                <img src="il/email1.png" alt="mobile">
+              </div>
+              <div class="footer-text">
+                <p>+39-333-469-8701</p><br>
+                <p>nkarpova304@gmail.com</p>
+              </div>
+            </div>
+          </footer>
+        </div>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
