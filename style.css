@@ -136,6 +136,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   width: 280px;
+  margin-top: 25px;
 }
 i {
   font-size: 36px;
@@ -351,6 +352,7 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  margin-top: 0;
 }
 li {
   text-align: center;
@@ -398,6 +400,9 @@ li a:hover:not(.active) {
     font-weight: 700;
     font-size: 20px;
     color: #5D6063;
+}
+.icons{
+  width: 200px;
 }
 i {
   font-size: 24px;
@@ -510,6 +515,7 @@ margin-left: 0;
   }
   header{
     justify-content: center;
+    padding: 25px;
   }
   nav{
     justify-content: center;
@@ -570,6 +576,9 @@ li a:hover:not(.active) {
   font-size: 20px;
   font-family: Montserrat,sans-serif;
   color: #5D6063;
+}
+.icons{
+  width: 200px;
 }
 i {
   font-size: 24px;
