@@ -221,7 +221,7 @@ i {
 }
 
 .phrase-text{
-  font-size: 20px;
+  font-size: 18px;
   font-style: italic;
   padding-left: 20px;
   padding-right: 20px;
@@ -334,7 +334,7 @@ footer{
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: white;
-    font-size: 14px;
+    font-size: 16px;
   }
   header{
     justify-content: center;
@@ -477,6 +477,7 @@ margin-bottom: 50px;
   text-align: center;
   padding-left: 20px;
   padding-right: 16px;
+  font-size: 16px;
 }
 .contact{
   flex-direction: column;
@@ -512,7 +513,7 @@ margin-left: 0;
 @media only screen and (max-width: 400px) {
   body {
     background-color: white;
-    font-size: 14px;
+    font-size: 16px;
   }
   header{
     justify-content: center;
@@ -578,15 +579,17 @@ li a:hover:not(.active) {
   font-family: Montserrat,sans-serif;
   color: #5D6063;
 }
-.icons{
+#icons{
   width: 200px;
+  display: flex;
+  align-items: center;
+
 }
 i {
   font-size: 24px;
   color: white;
   display: inline-block;
   border-radius: 50%;
-  margin-top: 20px;
   justify-content: center;
 }
 
