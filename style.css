@@ -467,7 +467,7 @@ i {
   width: 400px;
 }
 .phrase{
-height: 250px;
+height: 300px;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -476,7 +476,7 @@ margin-bottom: 50px;
 .phrase-text{
   text-align: center;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 16px;
 }
 .contact{
   flex-direction: column;
@@ -643,7 +643,7 @@ i {
   width: 300px;
 }
 .phrase{
-height: 350px;
+height: 300px;
 display: flex;
 align-items: center;
 justify-content: center;
