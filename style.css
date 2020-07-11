@@ -165,7 +165,7 @@ i {
 
 
 }
-.about-text1, .hard-skills, .contact-text {
+.about-text1, .hard-skills, .contact-text, .title-pr {
   font-family: 'Cabin Sketch', cursive;
   font-size: 40px;
   color: #ff681c;
@@ -227,7 +227,62 @@ i {
   padding-right: 20px;
   text-align: center;
 }
+/* PROJECTS*/
 
+.container-pr{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   width: 100%;
+}
+.projects{
+  
+  width: 100%;
+  background-image: linear-gradient(#eff5fe,#407FC7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.title-pr{
+  
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+  
+}
+.project{
+  margin-top:50px; 
+  border-style: dotted;
+  border-color: #ff681c;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding:20px;
+  width:280px;
+  height: 420px;
+
+}
+.project:last-child{
+  margin-right: 0;
+}
+.img-pr{
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.description{
+  color: white;
+}
 .contact{
   height: 570px;
   width: 100%;
@@ -295,6 +350,7 @@ i {
   border-radius: 3px;
   padding: 10px 40px;
   cursor: pointer;
+
 }
 
 .form-row button:hover {
@@ -303,6 +359,7 @@ i {
 
 .form-row button:active {
   background-color: #407FC7;
+
 }
 
 .contact-image{
@@ -479,6 +536,13 @@ margin-bottom: 50px;
   padding-right: 16px;
   font-size: 16px;
 }
+
+.project:last-child{
+  margin-right: 20px;
+}
+.description{   
+   color: #5D6063;
+ }
 .contact{
   flex-direction: column;
   height: 850px;
@@ -657,6 +721,13 @@ margin-bottom: 25px;
   line-height: normal;
   font-size: 16px;
 }
+.project:last-child{
+  margin-right: 20px;
+  }
+
+.description{   
+   color: #5D6063;
+ }
 .contact{
   flex-direction: column;
   height: 850px;

@@ -21,7 +21,7 @@
             <ul class="menu">
               <li><a class="active " href="#about">About me</a></li>
               <li><a href="#hard">Hard skills</a></li>
-
+              <li><a href="#projects">My projects</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
@@ -80,15 +80,15 @@
             <p class="hard-skills">Hard skills.</p>
             <p>Html/Css</p>
             <div class="large-bar">
-              <div class="inside-bar" style="width:55%"> </div>
+              <div class="inside-bar" style="width:65%"> </div>
             </div>
-            <p>Bootstrap</p>
+            <p>JavaScript</p>
             <div class="large-bar">
               <div class="inside-bar" style="width:35%"> </div>
             </div>
-            <p>Wordpress</p>
+            <p>React</p>
             <div class="large-bar">
-              <div class="inside-bar" style="width:45%"> </div>
+              <div class="inside-bar" style="width:30%"> </div>
             </div>
             <p>MySQL</p>
             <div class="large-bar">
@@ -100,19 +100,19 @@
             </div>
             <p>Java</p>
             <div class="large-bar">
-              <div class="inside-bar" style="width:55%"> </div>
-            </div>
-            <p>JavaScript</p>
-            <div class="large-bar">
-              <div class="inside-bar" style="width:20%"> </div>
-            </div>
-            <p>React</p>
-            <div class="large-bar">
-              <div class="inside-bar" style="width:20%"> </div>
+              <div class="inside-bar" style="width:50%"> </div>
             </div>
             <p>Springboot</p>
             <div class="large-bar">
-              <div class="inside-bar" style="width:50%"> </div>
+              <div class="inside-bar" style="width:40%"> </div>
+            </div>
+            <p>Node.js</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:35%"> </div>
+            </div>
+            <p>Wordpress</p>
+            <div class="large-bar">
+              <div class="inside-bar" style="width:45%"> </div>
             </div>
           </div>
         </div>
@@ -126,6 +126,42 @@
             <br>
             Zig Ziglar.</p>
         </div>
+        <div class="container-pr" id="projects">
+	        <div class="title-pr">
+	        	<p >My Projects:</p>
+	        </div>
+	        <div class="projects" >
+
+	        	<div class="project">
+	        		<h3> Meteo World.</h3>
+	        		<h4> (Javascript)</h4>
+	        		<img class="img-pr"  src="il/meteo.png">
+	        		<p class="description">The weather website has been realized with API OpenWeatherMap.org. </p>
+
+	        	</div>
+	        	
+	        	<div class="project">
+	        		<h3> Google Books.</h3>
+	        		<h4> (React) </h4>
+	        		<img class="img-pr"  src="il/pc.png">
+	        		<p class="description"> Online library has been realized with Google Api.</p>
+	        	</div>
+	        	<div class="project">
+	        		<h3> 4Friends Chat.</h3>
+	        		<h4> (Node.js, WebSockets)</h4>
+	        		<img class="img-pr"  src="il/nick.png">
+	        		<p class="description">Online chat with diffrent rooms.
+					</p>
+	        	</div>
+	        	<div class="project">
+
+	        		<h3> Success Planner.</h3>
+	        		<h4> (PHP, MySql)</h4>
+	        		<img class="img-pr" src="il/home.png">
+	        		<p class="description">Todo list website. </p>
+	        	</div>
+	        </div>
+        </div>	
         <!--Contact form-->
           <div class="contact" id="contact">
             <form action='' method='get' class='speaker-form'>
@@ -134,7 +170,7 @@
 
               <label for='full-name'>Name</label>
                 <input id='full-name' name='full-name' type='text'
-                placeholder='Your name'/>
+                placeholder='Your name' required="Name is required" />
               </div>
               <div class='form-row'>
                 <label for='email'>Email</label>
@@ -147,7 +183,7 @@
                   placeholder='Text your message here'></textarea>
                 </div>
               <div class='form-row'>
-                <button type="button" name="button">Send</button>
+                <button onclick="alert('Something went wrong! Please choose another way to contact me.');" type="button" name="button">Send</button>
               </div>
             </form>
             <div>
